@@ -1,6 +1,6 @@
 defineClass('JPViewController', {
   handleBtn: function(sender) {
-    console.log("Hello, world")
+    console.log("Hello, world!")
     var tableViewCtrl = JPTableViewController.alloc().init()
     self.navigationController().pushViewController_animated(tableViewCtrl, YES)
   }
